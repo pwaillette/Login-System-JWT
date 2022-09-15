@@ -1,0 +1,13 @@
+node_modules
+.env
+node_modules/
+./node_modules
+./node_modules/
+./build
+build/
+build
+./build/
+src/utils/createUser.ts
+src/utils/createUser.ts
+src/utils/createUser.ts
+src/utils/createUser.ts
