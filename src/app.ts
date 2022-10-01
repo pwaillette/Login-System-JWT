@@ -2,6 +2,7 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import logger from 'morgan';
+import router from './routes';
 
 const app = express();
 
@@ -12,8 +13,6 @@ app.use(logger('dev'));
 
 // -------- Routes -------- //
 
-app.get('/', (req, res) => {
-  res.send('Hey!');
-});
+app.use('/', router);
 
 export default app;
